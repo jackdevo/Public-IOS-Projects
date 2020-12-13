@@ -15,20 +15,3 @@ So I created this small app (not completed yet) that lets you input the name, co
 View screenshots [here](https://github.com/jackdevo/Public-IOS-Projects/tree/master/Oven%20Timer/Screenshots)
 
 View this project [here](https://github.com/jackdevo/Public-IOS-Projects/tree/master/Oven%20Timer)
-
----
-
-### Copyright
-----
-
-I don't suppose anyone would want to copy the projects here, but the lack of a license on all of my public Github repos is intentional.
-
-Feel free to:
-1. View, Download and Edit the projects within this repository
-2. Use these projects for personal use
-3. Use these projects for educational purposes
-
-But please don't:
-1. Claim any projects as your own, even after modification
-2. Distribute (or attempt to distribute) these projects through any means (App Store or Ad Hoc)
-3. Use any of these projects for commercial purposes
