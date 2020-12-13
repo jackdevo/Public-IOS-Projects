@@ -16,9 +16,9 @@ View screenshots [here](https://github.com/jackdevo/Public-IOS-Projects/tree/mas
 
 View this project [here](https://github.com/jackdevo/Public-IOS-Projects/tree/master/Oven%20Timer)
 
+---
 
-
-##### Copyright
+### Copyright
 ----
 
 I don't suppose anyone would want to copy the projects here, but the lack of a license on all of my public Github repos is intentional.
