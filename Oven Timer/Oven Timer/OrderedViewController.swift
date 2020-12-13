@@ -59,7 +59,7 @@ class OrderedViewController: UIViewController, UITableViewDataSource, UITableVie
         for x in 0...(newCookingTimes.count - 2) {
             tempInt = newCookingTimes[x].1 - newCookingTimes[x+1].1
             instructions.append("Wait \(tempInt) minutes")
-            instructions.append("Put \(newCookingTimes[x+1].1) in the oven")
+            instructions.append("Put \(newCookingTimes[x+1].0) in the oven")
             totalTime += tempInt
         }
         
