@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47E09CB425856ACE0073A21D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E09CB325856ACE0073A21D /* AppDelegate.swift */; };
+		47E09CB625856ACE0073A21D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E09CB525856ACE0073A21D /* SceneDelegate.swift */; };
+		47E09CB825856ACE0073A21D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E09CB725856ACE0073A21D /* ViewController.swift */; };
+		47E09CBB25856ACE0073A21D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E09CB925856ACE0073A21D /* Main.storyboard */; };
+		47E09CBE25856ACE0073A21D /* Oven_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47E09CBC25856ACE0073A21D /* Oven_Timer.xcdatamodeld */; };
+		47E09CC025856ACF0073A21D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E09CBF25856ACF0073A21D /* Assets.xcassets */; };
+		47E09CC325856ACF0073A21D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E09CC125856ACF0073A21D /* LaunchScreen.storyboard */; };
+		47E09CCF25856F960073A21D /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E09CCE25856F960073A21D /* BookmarkViewController.swift */; };
+		47E09CD2258574B70073A21D /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E09CD1258574B70073A21D /* AddItemViewController.swift */; };
+		47E09CDF25858E770073A21D /* OrderedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E09CDE25858E770073A21D /* OrderedViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47E09CB025856ACE0073A21D /* Oven Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oven Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E09CB325856ACE0073A21D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47E09CB525856ACE0073A21D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47E09CB725856ACE0073A21D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47E09CBA25856ACE0073A21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47E09CBD25856ACE0073A21D /* Oven_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Oven_Timer.xcdatamodel; sourceTree = "<group>"; };
+		47E09CBF25856ACF0073A21D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E09CC225856ACF0073A21D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47E09CC425856ACF0073A21D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E09CCE25856F960073A21D /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
+		47E09CD1258574B70073A21D /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		47E09CDE25858E770073A21D /* OrderedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E09CAD25856ACE0073A21D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E09CA725856ACE0073A21D = {
+			isa = PBXGroup;
+			children = (
+				47E09CB225856ACE0073A21D /* Oven Timer */,
+				47E09CB125856ACE0073A21D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47E09CB125856ACE0073A21D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E09CB025856ACE0073A21D /* Oven Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E09CB225856ACE0073A21D /* Oven Timer */ = {
+			isa = PBXGroup;
+			children = (
+				47E09CB325856ACE0073A21D /* AppDelegate.swift */,
+				47E09CB525856ACE0073A21D /* SceneDelegate.swift */,
+				47E09CB725856ACE0073A21D /* ViewController.swift */,
+				47E09CB925856ACE0073A21D /* Main.storyboard */,
+				47E09CDE25858E770073A21D /* OrderedViewController.swift */,
+				47E09CD1258574B70073A21D /* AddItemViewController.swift */,
+				47E09CCE25856F960073A21D /* BookmarkViewController.swift */,
+				47E09CBF25856ACF0073A21D /* Assets.xcassets */,
+				47E09CC125856ACF0073A21D /* LaunchScreen.storyboard */,
+				47E09CC425856ACF0073A21D /* Info.plist */,
+				47E09CBC25856ACE0073A21D /* Oven_Timer.xcdatamodeld */,
+			);
+			path = "Oven Timer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47E09CAF25856ACE0073A21D /* Oven Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E09CC725856ACF0073A21D /* Build configuration list for PBXNativeTarget "Oven Timer" */;
+			buildPhases = (
+				47E09CAC25856ACE0073A21D /* Sources */,
+				47E09CAD25856ACE0073A21D /* Frameworks */,
+				47E09CAE25856ACE0073A21D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Oven Timer";
+			productName = "Oven Timer";
+			productReference = 47E09CB025856ACE0073A21D /* Oven Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47E09CA825856ACE0073A21D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					47E09CAF25856ACE0073A21D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 47E09CAB25856ACE0073A21D /* Build configuration list for PBXProject "Oven Timer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47E09CA725856ACE0073A21D;
+			productRefGroup = 47E09CB125856ACE0073A21D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47E09CAF25856ACE0073A21D /* Oven Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E09CAE25856ACE0073A21D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E09CC325856ACF0073A21D /* LaunchScreen.storyboard in Resources */,
+				47E09CC025856ACF0073A21D /* Assets.xcassets in Resources */,
+				47E09CBB25856ACE0073A21D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47E09CAC25856ACE0073A21D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E09CDF25858E770073A21D /* OrderedViewController.swift in Sources */,
+				47E09CB825856ACE0073A21D /* ViewController.swift in Sources */,
+				47E09CB425856ACE0073A21D /* AppDelegate.swift in Sources */,
+				47E09CB625856ACE0073A21D /* SceneDelegate.swift in Sources */,
+				47E09CD2258574B70073A21D /* AddItemViewController.swift in Sources */,
+				47E09CCF25856F960073A21D /* BookmarkViewController.swift in Sources */,
+				47E09CBE25856ACE0073A21D /* Oven_Timer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47E09CB925856ACE0073A21D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E09CBA25856ACE0073A21D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47E09CC125856ACF0073A21D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E09CC225856ACF0073A21D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47E09CC525856ACF0073A21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47E09CC625856ACF0073A21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E09CC825856ACF0073A21D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XKB35B5R6X;
+				INFOPLIST_FILE = "Oven Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JackDevonshire.Oven-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47E09CC925856ACF0073A21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XKB35B5R6X;
+				INFOPLIST_FILE = "Oven Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JackDevonshire.Oven-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E09CAB25856ACE0073A21D /* Build configuration list for PBXProject "Oven Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E09CC525856ACF0073A21D /* Debug */,
+				47E09CC625856ACF0073A21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E09CC725856ACF0073A21D /* Build configuration list for PBXNativeTarget "Oven Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E09CC825856ACF0073A21D /* Debug */,
+				47E09CC925856ACF0073A21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47E09CBC25856ACE0073A21D /* Oven_Timer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47E09CBD25856ACE0073A21D /* Oven_Timer.xcdatamodel */,
+			);
+			currentVersion = 47E09CBD25856ACE0073A21D /* Oven_Timer.xcdatamodel */;
+			path = Oven_Timer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47E09CA825856ACE0073A21D /* Project object */;
+}
