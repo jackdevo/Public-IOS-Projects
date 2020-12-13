@@ -13,9 +13,9 @@ I have always had a huge (irrational) fear of undercooking food. I don't like 'g
 So I created this small app (not completed yet) that lets you input the name, cooking time, and cooking temperature (from packaging) of various food items you want to cook, and then using this data the app produces instructions detailing exactly what temperature to heat the oven to, and when to put each item in.
 
 Screenshots:
-![Current Ingredients Screen](https://raw.github.com/jackdevo/master/Public-IOS-Projects/Oven%20Timer/Screenshots/ss-ingredients.png)
-![Add Item Screen](https://raw.github.com/jackdevo/Public-IOS-Projects/master/Oven%20Timer/Screenshots/ss-addItem.png)
-![Instruction Screen](https://raw.github.com/jackdevo/Public-IOS-Projects/master/Oven%20Timer/Screenshots/ss-instructions.png)
+![Current Ingredients Screen](https://raw.github.com/jackdevo/master/Public-IOS-Projects/Oven%20Timer/Screenshots/ss-ingredients.png){:height="50%" width="50%"}
+![Add Item Screen](https://raw.github.com/jackdevo/Public-IOS-Projects/master/Oven%20Timer/Screenshots/ss-addItem.png){:height="50%" width="50%"}
+![Instruction Screen](https://raw.github.com/jackdevo/Public-IOS-Projects/master/Oven%20Timer/Screenshots/ss-instructions.png){:height="50%" width="50%"}
 
 
 View this project [here](https://github.com/jackdevo/Public-IOS-Projects/tree/master/Oven%20Timer)
@@ -34,6 +34,5 @@ Feel free to:
 
 But please don't:
 1. Claim any projects as your own, even after modification
-2. Distribute (or attempt to distribute) these projects through any means (App Store or ADC 
-I don't suppose anyone would want to copy the projects here, but the lack of a license on all of my public Github repos is intentional.)
+2. Distribute (or attempt to distribute) these projects through any means (App Store or Ad Hoc)
 3. Use any of these projects for commercial purposes
