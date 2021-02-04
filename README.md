@@ -1,6 +1,6 @@
 # Public IOS Projects
 
-![](https://img.shields.io/github/followers/jackdevo?style=social)
+![](https://img.shields.io/github/followers/jackdevonshire?style=social)
 
 Having learnt the basics of Swift recently, I aim to expand on my learning and dive into more advanced IOS app development. Here is a collection of applications I am working on.
 
