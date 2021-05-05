@@ -21,7 +21,7 @@ struct WeatherSymbol: View {
         Text("\(temp)° Today")
             .font(.system(size: 35, weight: .medium, design: .default))
             .foregroundColor(.white)
-            .padding(.bottom, 50)
+            .padding(.bottom, 80)
     }
 }
 

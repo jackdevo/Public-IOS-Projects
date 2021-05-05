@@ -16,18 +16,18 @@ struct ContentView: View {
                 LocationTitle(locationName: "Birmingham, UK")
                 WeatherSymbol(iconName: "cloud.sun.fill", temp: 22)
                 HStack {
-                    WeatherDayTile(day: "Tue", iconName: "sun.max.fill", temp: 26)
-                    WeatherDayTile(day: "Wed", iconName: "sun.max.fill", temp: 22)
-                    WeatherDayTile(day: "Thur", iconName: "sun.max.fill", temp: 19)
-                    WeatherDayTile(day: "Fri", iconName: "sun.max.fill", temp: 15)
-                    WeatherDayTile(day: "Sat", iconName: "sun.max.fill", temp: 15)
+                    WeatherDayTile(dayTime: "Tue", iconName: "sun.max.fill", temp: 26)
+                    WeatherDayTile(dayTime: "Wed", iconName: "sun.max.fill", temp: 22)
+                    WeatherDayTile(dayTime: "Thur", iconName: "sun.max.fill", temp: 19)
+                    WeatherDayTile(dayTime: "Fri", iconName: "sun.max.fill", temp: 15)
+                    WeatherDayTile(dayTime: "Sat", iconName: "sun.max.fill", temp: 15)
                 }
                 
                 Spacer()
                 Button {
                     print("tapped")
                 } label: {
-                    LocationButton(text: "Show Days")
+                    LocationButton(text: "Show Hours")
                 }
                 
                 Spacer()

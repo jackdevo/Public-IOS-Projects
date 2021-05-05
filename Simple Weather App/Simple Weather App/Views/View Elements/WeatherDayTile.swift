@@ -9,7 +9,7 @@ import SwiftUI
 
 struct WeatherDayTile: View {
     
-    var day : String
+    var dayTime : String
     var iconName: String
     var temp: Int
     
@@ -20,7 +20,7 @@ struct WeatherDayTile: View {
                 .foregroundColor(.white)
                 .frame(width: 56, height: 140, alignment: .center)
             VStack {
-                Text(day)
+                Text(dayTime)
                     .foregroundColor(.black)
                     .font(.system(size: 18, weight: .medium, design: .default))
                 
@@ -41,6 +41,6 @@ struct WeatherDayTile: View {
 
 struct WeatherDayTile_Previews: PreviewProvider {
     static var previews: some View {
-        WeatherDayTile(day: "TUE", iconName: "sun.max.fill", temp: 26)
+        WeatherDayTile(dayTime: "TUE", iconName: "sun.max.fill", temp: 26)
     }
 }
