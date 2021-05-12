@@ -15,3 +15,8 @@ So I created this small app (not completed yet) that lets you input the name, co
 View screenshots [here](https://github.com/jackdevo/Public-IOS-Projects/tree/master/Oven%20Timer/Screenshots)
 
 View this project [here](https://github.com/jackdevo/Public-IOS-Projects/tree/master/Oven%20Timer)
+
+### 2. Simple Weather App
+----
+
+I have recently been practising SwiftUI. This app is a weather app design I created, inspired by a youtube challenge I saw. It is not functional yet.
